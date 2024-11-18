@@ -6,36 +6,33 @@ const About = () => {
           <div className="title_inner">About Me</div>
         </div>
         <div className="image">
-          <img src="images/man1.jpg" alt="" />
+          <img src="images/dp.png " alt="" />
         </div>
         <div className="desc">
           <p>
-            Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum
-            vocent mediocritatem an, cule dicta iriure at. Ubique maluisset vel
-            te, his dico vituperata ut. Pro ei phaedrum maluisset. Ex audire
-            suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique
-            ut. Te cule tation munere noluisse. Enim torquatos ne pri, eum
-            mollis salutandi corrumpit et, fugit apeirian duo ad.
+            I’m Basat Maqsood, a passionate Software Engineering student at UET
+            Taxila, dedicated to crafting innovative and user-focused solutions.
+            I thrive on creating seamless and engaging digital experiences that
+            solve real-world problems. With a strong commitment to learning and
+            growth, I continuously challenge myself to deliver impactful
+            results. Let’s connect and collaborate to turn ideas into reality!
           </p>
           <div className="info-list">
             <ul>
               <li>
-                <strong>Name:</strong> John Doe
+                <strong>Name:</strong> Basat Maqsood
               </li>
               <li>
-                <strong>Age:</strong> 22 Years
+                <strong>Age:</strong> 20 Years
               </li>
               <li>
                 <strong>Job:</strong> Web Developer
               </li>
               <li>
-                <strong>Citizenship:</strong> Ukraine
+                <strong>Citizenship:</strong> Pakistan
               </li>
-              <li>
-                <strong>Residence: </strong> Kiev
-              </li>
-              <li>
-                <strong>E-mail:</strong> johndoe@domain.com
+              <li id="info-class-email">
+                <strong>E-mail:</strong> <a  href="mailto:itzbasatmaqsood@gmail.com"> itzbasatmaqsood@gmail.com</a>
               </li>
             </ul>
           </div>

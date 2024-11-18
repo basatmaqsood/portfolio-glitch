@@ -5,9 +5,7 @@ import Skills from "@/components/Skills";
 import GlitcheLayout from "@/layouts/GlitcheLayout";
 
 import dynamic from "next/dynamic";
-const Clients = dynamic(() => import("@/components/Clients"), {
-  ssr: false,
-});
+
 
 const Resume = () => {
   return (
@@ -16,7 +14,6 @@ const Resume = () => {
       <About />
       <Skills />
       <Services />
-      <Clients />
     </GlitcheLayout>
   );
 };

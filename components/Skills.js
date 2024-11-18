@@ -17,15 +17,15 @@ export const DesignSkills = () => {
               </div>
             </li>
             <li>
-              <div className="name">Illustrations</div>
+              <div className="name">UI/UX</div>
               <div className="progress">
-                <div className="percentage" style={{ width: "90%" }}>
-                  <span className="percent">90%</span>
+                <div className="percentage" style={{ width: "80%" }}>
+                  <span className="percent">80%</span>
                 </div>
               </div>
             </li>
             <li>
-              <div className="name">Photoshop</div>
+              <div className="name">Figma</div>
               <div className="progress">
                 <div className="percentage" style={{ width: "75%" }}>
                   <span className="percent">75%</span>
@@ -33,62 +33,18 @@ export const DesignSkills = () => {
               </div>
             </li>
             <li>
-              <div className="name">Graphic Design</div>
+              <div className="name">Canva</div>
               <div className="progress">
                 <div className="percentage" style={{ width: "80%" }}>
                   <span className="percent">80%</span>
                 </div>
               </div>
             </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  );
-};
-export const LanguagesSkills = () => {
-  useEffect(() => {
-    glitcheUtils.dotResize();
-    setTimeout(glitcheUtils.createSkillsDot(), 1000);
-  }, []);
-
-  return (
-    <div className="section skills">
-      <div className="content">
-        <div className="title">
-          <div className="title_inner">Languages Skills</div>
-        </div>
-        <div className="skills dotted">
-          <ul>
             <li>
-              <div className="name">English</div>
+              <div className="name">Adobe Illustrator</div>
               <div className="progress">
-                <div className="percentage" style={{ width: "90%" }}>
-                  <span className="percent">90%</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">German</div>
-              <div className="progress ">
                 <div className="percentage" style={{ width: "70%" }}>
                   <span className="percent">70%</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">Italian</div>
-              <div className="progress ">
-                <div className="percentage" style={{ width: "55%" }}>
-                  <span className="percent">55%</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">French</div>
-              <div className="progress ">
-                <div className="percentage" style={{ width: "85%" }}>
-                  <span className="percent">85%</span>
                 </div>
               </div>
             </li>
@@ -100,10 +56,16 @@ export const LanguagesSkills = () => {
 };
 export const CodingSkills = () => {
   const skills = [
-    { id: 1, title: "WordPress", value: 90 },
-    { id: 2, title: "PHP / MYSQL", value: 75 },
-    { id: 3, title: "Angular / JavaScript", value: 85 },
-    { id: 4, title: "HTML / CSS", value: 95 },
+    { id: 1, title: "React JS", value: 90 },
+    { id: 2, title: "Node/Express", value: 85 },
+    { id: 3, title: "MongoDB/SQL", value: 80 },
+    { id: 4, title: "Next Js", value: 90 },
+    { id: 5, title: "Tailwind CSS", value: 95 },
+    { id: 6, title: "TypeScript", value: 85 },
+    { id: 7, title: "JavaScript", value: 95 },
+    { id: 8, title: "HTML/CSS", value: 95 },
+    { id: 9, title: "SystemDesign", value: 80 },
+    { id: 10, title: "SEO", value: 75 },
   ];
   return (
     <div className="section skills">
@@ -147,28 +109,28 @@ export const Knowledge = () => {
         <div className="skills list">
           <ul>
             <li>
-              <div className="name">Website hosting</div>
+              <div className="name">Responsive web design and development</div>
             </li>
             <li>
-              <div className="name">iOS and android apps</div>
+              <div className="name">Custom e-commerce solutions</div>
             </li>
             <li>
-              <div className="name">Create logo design</div>
+              <div className="name">SEO-friendly website optimization</div>
             </li>
             <li>
-              <div className="name">Design for print</div>
+              <div className="name">Branding and visual identity creation</div>
             </li>
             <li>
-              <div className="name">Modern and mobile-ready</div>
+              <div className="name">Cross-platform app development</div>
             </li>
             <li>
-              <div className="name">Advertising services include</div>
+              <div className="name">UI/UX design for web and mobile</div>
             </li>
             <li>
-              <div className="name">Graphics and animations</div>
+              <div className="name">Social media marketing strategies</div>
             </li>
             <li>
-              <div className="name">Search engine marketing</div>
+              <div className="name">Content management system integration</div>
             </li>
           </ul>
         </div>
@@ -181,15 +143,13 @@ import { glitcheUtils } from "@/utility";
 import { Fragment, useEffect } from "react";
 const Skills = ({
   design = true,
-  languages = true,
   coding = true,
   knowledge = true,
 }) => {
   return (
     <Fragment>
-      {design && <DesignSkills />}
-      {languages && <LanguagesSkills />}
       {coding && <CodingSkills />}
+      {design && <DesignSkills />}
       {knowledge && <Knowledge />}
     </Fragment>
   );

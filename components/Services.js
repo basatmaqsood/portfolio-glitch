@@ -1,3 +1,10 @@
+import { GrServer } from "react-icons/gr";
+import { HiMiniComputerDesktop } from "react-icons/hi2";
+import { FaGear } from "react-icons/fa6";
+import { MdLocalGroceryStore } from "react-icons/md";
+import { FaGlobe } from "react-icons/fa";
+import { AiFillApi } from "react-icons/ai";
+
 const Services = () => {
   return (
     <div className="section service">
@@ -8,45 +15,63 @@ const Services = () => {
         <div className="service-items">
           <div className="service-item">
             <div className="icon">
-              <span className="ion ion-social-html5" />
+              <HiMiniComputerDesktop />{" "}
             </div>
             <div className="name">Front-end</div>
-            <p>Morbi nulla arcu, pellentesque sed egestas in.</p>
+            <p>
+              Crafting modern, responsive, and visually engaging user interfaces
+              for websites and applications.
+            </p>
           </div>
           <div className="service-item">
             <div className="icon">
-              <span className="ion ion-ipad" />
+              <GrServer />
             </div>
-            <div className="name">Mobile Application</div>
-            <p>Morbi nulla arcu, pellentesque sed egestas in.</p>
+            <div className="name">Back-End Development</div>
+            <p>
+              Developing robust and scalable server-side solutions to power your
+              applications effectively.
+            </p>
           </div>
           <div className="service-item">
             <div className="icon">
-              <span className="ion ion-ios-search-strong" />
+              <FaGear />{" "}
             </div>
-            <div className="name">Investigation</div>
-            <p>Morbi nulla arcu, pellentesque sed egestas in.</p>
+            <div className="name">Full-Stack Development</div>
+            <p>
+              Offering end-to-end development solutions by integrating front-end
+              and back-end systems seamlessly.
+            </p>
           </div>
           <div className="service-item">
             <div className="icon">
-              <span className="ion ion-code" />
+              <MdLocalGroceryStore />{" "}
             </div>
-            <div className="name">Programming</div>
-            <p>Morbi nulla arcu, pellentesque sed egestas in.</p>
+            <div className="name">E-Commerce Solutions</div>
+            <p>
+              Creating custom e-commerce platforms to help businesses sell
+              products and manage operations online.
+            </p>
           </div>
           <div className="service-item">
             <div className="icon">
-              <span className="ion ion-help-buoy" />
+              <FaGlobe />{" "}
             </div>
-            <div className="name">Awesome Supports</div>
-            <p>Morbi nulla arcu, pellentesque sed egestas in.</p>
+            <div className="name">Personal Portfolio</div>
+            <p>
+              Building professional, visually appealing portfolio websites to
+              showcase your skills and achievements.
+            </p>
           </div>
           <div className="service-item">
             <div className="icon">
-              <span className="ion ion-social-chrome" />
+              <AiFillApi />{" "}
             </div>
-            <div className="name">Web Development</div>
-            <p>Morbi nulla arcu, pellentesque sed egestas in.</p>
+            <div className="name">API Integration</div>
+            <p>
+              Integrating third-party APIs to enhance functionality and provide
+              dynamic, data-driven solutions.
+            </p>
           </div>
         </div>
       </div>
