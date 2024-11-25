@@ -98,32 +98,22 @@ const RecentWorks = () => {
               </div>
               <div className="btn-group">
                 <label
-                  data-text="Video"
-                  className={`c-pointer ${activeBtn("f-video")}`}
-                  onClick={handleFilterKeyChange("f-video")}
-                >
-                  <input type="radio" name="fl_radio" defaultValue=".f-video" />
-                  Video
-                </label>
-              </div>
-              <div className="btn-group">
-                <label
-                  data-text="Music"
-                  className={`c-pointer ${activeBtn("f-music")}`}
-                  onClick={handleFilterKeyChange("f-music")}
-                >
-                  <input type="radio" name="fl_radio" defaultValue=".f-music" />
-                  Music
-                </label>
-              </div>
-              <div className="btn-group">
-                <label
                   data-text="Links"
                   className={`c-pointer ${activeBtn("f-links")}`}
                   onClick={handleFilterKeyChange("f-links")}
                 >
                   <input type="radio" name="fl_radio" defaultValue=".f-links" />
                   Links
+                </label>
+              </div>
+              <div className="btn-group">
+                <label
+                  data-text="Video"
+                  className={`c-pointer ${activeBtn("f-video")}`}
+                  onClick={handleFilterKeyChange("f-video")}
+                >
+                  <input type="radio" name="fl_radio" defaultValue=".f-video" />
+                  Video
                 </label>
               </div>
               <div className="btn-group">
@@ -150,23 +140,87 @@ const RecentWorks = () => {
                   Gallery
                 </label>
               </div>
-              <div className="btn-group">
-                <label
-                  data-text="Content"
-                  className={`c-pointer ${activeBtn("f-content")}`}
-                  onClick={handleFilterKeyChange("f-content")}
-                >
-                  <input
-                    type="radio"
-                    name="fl_radio"
-                    defaultValue=".f-content"
-                  />
-                  Content
-                </label>
-              </div>
             </div>
           </div>
+
           <div className="box-items portfolio-items">
+
+
+            <div className="box-item f-links">
+              <div className="image">
+                <a
+                  href="https://car-rental-basat.vercel.app/"
+                  className="has-popup-link"
+                  target="_blank"
+                >
+                  <img src="images/works/work1.png" alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-link" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Live Website</div>
+                <a href="https://car-rental-basat.vercel.app/" className="name has-popup-link">
+                  Car Rental Website
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item f-links">
+              <div className="image">
+                <a
+                  href="https://giphy-basat.vercel.app/"
+                  className="has-popup-link"
+                  target="_blank"
+                >
+                  <img src="images/works/work2.png" alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-link" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Live Website</div>
+                <a href="https://giphy-basat.vercel.app/" className="name has-popup-link">
+                  GIPHY Clone
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item f-links">
+              <div className="image">
+                <a
+                  href="https://tea-station-basat.vercel.app/"
+                  className="has-popup-link"
+                  target="_blank"
+                >
+                  <img src="images/works/work3.png" alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-link" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Live Website</div>
+                <a href="https://tea-station-basat.vercel.app/" className="name has-popup-link">
+                  Tea Station 
+                </a>
+              </div>
+            </div>
+
             <div className="box-item f-gallery">
               <div className="image">
                 <a
@@ -200,6 +254,7 @@ const RecentWorks = () => {
                 </a>
               </div>
             </div>
+
             <div className="box-item f-video">
               <div className="image">
                 <a
@@ -226,6 +281,7 @@ const RecentWorks = () => {
                 </a>
               </div>
             </div>
+
             <div className="box-item f-links">
               <div className="image">
                 <a
@@ -250,6 +306,7 @@ const RecentWorks = () => {
                 </a>
               </div>
             </div>
+
             <div className="box-item f-image">
               <div className="image">
                 <a href="images/works/work4.jpg" className="has-popup-image">
@@ -273,6 +330,7 @@ const RecentWorks = () => {
                 </a>
               </div>
             </div>
+
             <div className="box-item f-gallery">
               <div className="image">
                 <a
@@ -306,32 +364,7 @@ const RecentWorks = () => {
                 </a>
               </div>
             </div>
-            <div className="box-item f-music">
-              <div className="image">
-                <a
-                  href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                  className="has-popup-music"
-                >
-                  <img src="images/works/work6.jpg" alt />
-                  <span className="info">
-                    <span className="centrize full-width">
-                      <span className="vertical-center">
-                        <span className="ion ion-music-note" />
-                      </span>
-                    </span>
-                  </span>
-                </a>
-              </div>
-              <div className="desc">
-                <div className="category">Music</div>
-                <a
-                  href="https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&show_artwork=true"
-                  className="name has-popup-music"
-                >
-                  Marta Veludo Beautiful Poster
-                </a>
-              </div>
-            </div>
+
             <div className="box-item f-image">
               <div className="image">
                 <a href="images/works/work7.jpg" className="has-popup-image">
@@ -352,78 +385,6 @@ const RecentWorks = () => {
                   className="name has-popup-image"
                 >
                   Minimal Poster Frame
-                </a>
-              </div>
-            </div>
-            <div className="box-item f-content">
-              <div className="image">
-                <a
-                  href="#popup-1"
-                  className="has-popup-media"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    modalToggle(true);
-                    setPortfolioModal(true);
-                  }}
-                >
-                  <img src="images/works/work3.jpg" alt />
-                  <span className="info">
-                    <span className="centrize full-width">
-                      <span className="vertical-center">
-                        <span className="ion ion-ios-plus-empty" />
-                      </span>
-                    </span>
-                  </span>
-                </a>
-              </div>
-              <div className="desc">
-                <div className="category">Content</div>
-                <a
-                  href="#popup-1"
-                  className="name has-popup-media"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    modalToggle(true);
-                    setPortfolioModal(true);
-                  }}
-                >
-                  Cardboard Box
-                </a>
-              </div>
-            </div>
-            <div className="box-item f-content">
-              <div className="image">
-                <a
-                  href="#popup-2"
-                  className="has-popup-media"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    modalToggle(true);
-                    setPortfolioModal(true);
-                  }}
-                >
-                  <img src="images/works/work3.jpg" alt />
-                  <span className="info">
-                    <span className="centrize full-width">
-                      <span className="vertical-center">
-                        <span className="ion ion-ios-plus-empty" />
-                      </span>
-                    </span>
-                  </span>
-                </a>
-              </div>
-              <div className="desc">
-                <div className="category">Content</div>
-                <a
-                  href="#popup-2"
-                  className="name has-popup-media"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    modalToggle(true);
-                    setPortfolioModal(true);
-                  }}
-                >
-                  Cardboard Box
                 </a>
               </div>
             </div>
