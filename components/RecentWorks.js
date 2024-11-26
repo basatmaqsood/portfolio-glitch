@@ -13,10 +13,12 @@ import {
 
 const galleryImages = {
   1: [
-    "images/works/work1.jpg",
-    "images/works/work2.jpg",
-    "images/works/work3.jpg",
-    "images/works/work4.jpg",
+    "images/works/work9.png",
+    "images/works/work30-1.png",
+    "images/works/work30-2.png",
+    "images/works/work30-3.png",
+    "images/works/work30-4.png",
+    "images/works/work30-5.png",
   ],
   2: [
     "images/works/work5.jpg",
@@ -416,7 +418,7 @@ const RecentWorks = () => {
                   }}
                   className="has-popup-gallery"
                 >
-                  <img src="images/works/work1.jpg" alt />
+                  <img src="images/works/work9.png" alt />
                   <span className="info">
                     <span className="centrize full-width">
                       <span className="vertical-center">
@@ -435,7 +437,7 @@ const RecentWorks = () => {
               <div className="desc">
                 <div className="category">Gallery</div>
                 <a href="#gallery-1" className="name has-popup-gallery">
-                  Canvas Tote Bag MockUp
+                  Node Farm: A server side Farm App using Node JS
                 </a>
               </div>
             </div>
@@ -500,8 +502,8 @@ const RecentWorks = () => {
 
             <div className="box-item f-image">
               <div className="image">
-                <a href="images/works/work7.jpg" className="has-popup-image">
-                  <img src="images/works/work7.jpg" alt />
+                <a href="images/works/work9.png" className="has-popup-image">
+                  <img src="images/works/work9.png" alt />
                   <span className="info">
                     <span className="centrize full-width">
                       <span className="vertical-center">
