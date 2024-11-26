@@ -170,7 +170,7 @@ const RecentWorks = () => {
                 </a>
               </div>
             </div>
-            
+
             <div className="box-item f-links">
               <div className="image">
                 <a
@@ -271,6 +271,141 @@ const RecentWorks = () => {
               </div>
             </div>
 
+            <div className="box-item f-video">
+              <div className="image">
+                <a
+                  href="https://youtu.be/RJHnlz5wiSU?si=MonGqRSSdTrQR8oq"
+                  className="has-popup-video"
+                >
+                  <img src="images/works/work24.png" alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-videocamera" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Video</div>
+                <a
+                  href="https://youtu.be/RJHnlz5wiSU?si=MonGqRSSdTrQR8oq"
+                  className="name has-popup-video"
+                >
+                  Full Stack AirBnB Clone
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item f-video">
+              <div className="image">
+                <a
+                  href="https://youtu.be/bw7p_OMSzlY?si=DlcyKZFlyyO8jjpZ"
+                  className="has-popup-video"
+                >
+                  <img src="images/works/work25.png" alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-videocamera" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Video</div>
+                <a
+                  href="https://youtu.be/bw7p_OMSzlY?si=DlcyKZFlyyO8jjpZ"
+                  className="name has-popup-video"
+                >
+                  ChatGPT Clone 
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item f-video">
+              <div className="image">
+                <a
+                  href="https://youtu.be/U2A01Aj37t8?si=4k1oHcsORdFm7Azh"
+                  className="has-popup-video"
+                >
+                  <img src="images/works/work26.png" alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-videocamera" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Video</div>
+                <a
+                  href="https://youtu.be/U2A01Aj37t8?si=4k1oHcsORdFm7Azh"
+                  className="name has-popup-video"
+                >
+                  Quiz Application
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item f-video">
+              <div className="image">
+                <a
+                  href="https://youtu.be/UO6fNVXmSnA?si=b1H7eN_oB43RqoZi"
+                  className="has-popup-video"
+                >
+                  <img src="images/works/work15.png" alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-videocamera" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Video</div>
+                <a
+                  href="https://youtu.be/UO6fNVXmSnA?si=b1H7eN_oB43RqoZi"
+                  className="name has-popup-video"
+                >
+                  Wordle Clone
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item f-video">
+              <div className="image">
+                <a
+                  href="https://youtu.be/116Yx1SzKx0?si=TOuToc-VP7jUEQtD"
+                  className="has-popup-video"
+                >
+                  <img src="images/works/work28.png" alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-videocamera" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Video</div>
+                <a
+                  href="https://youtu.be/116Yx1SzKx0?si=TOuToc-VP7jUEQtD"
+                  className="name has-popup-video"
+                >
+                  Chat App using React and Firebase
+                </a>
+              </div>
+            </div>
+
             <div className="box-item f-gallery">
               <div className="image">
                 <a
@@ -301,58 +436,6 @@ const RecentWorks = () => {
                 <div className="category">Gallery</div>
                 <a href="#gallery-1" className="name has-popup-gallery">
                   Canvas Tote Bag MockUp
-                </a>
-              </div>
-            </div>
-
-            <div className="box-item f-video">
-              <div className="image">
-                <a
-                  href="https://youtu.be/S4L8T2kFFck"
-                  className="has-popup-video"
-                >
-                  <img src="images/works/work2.jpg" alt />
-                  <span className="info">
-                    <span className="centrize full-width">
-                      <span className="vertical-center">
-                        <span className="ion ion-videocamera" />
-                      </span>
-                    </span>
-                  </span>
-                </a>
-              </div>
-              <div className="desc">
-                <div className="category">Video</div>
-                <a
-                  href="https://youtu.be/S4L8T2kFFck"
-                  className="name has-popup-video"
-                >
-                  Coffee Cup In Hand
-                </a>
-              </div>
-            </div>
-
-            <div className="box-item f-links">
-              <div className="image">
-                <a
-                  href="https://beshley.com/"
-                  className="has-popup-link"
-                  target="_blank"
-                >
-                  <img src="images/works/work8.jpg" alt />
-                  <span className="info">
-                    <span className="centrize full-width">
-                      <span className="vertical-center">
-                        <span className="ion ion-link" />
-                      </span>
-                    </span>
-                  </span>
-                </a>
-              </div>
-              <div className="desc">
-                <div className="category">Links</div>
-                <a href="https://beshley.com/" className="name has-popup-link">
-                  Love &amp; Care Ceramic Bottles
                 </a>
               </div>
             </div>
