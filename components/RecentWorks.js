@@ -21,10 +21,13 @@ const galleryImages = {
     "images/works/work30-5.png",
   ],
   2: [
-    "images/works/work5.jpg",
-    "images/works/work2.jpg",
-    "images/works/work3.jpg",
-    "images/works/work4.jpg",
+    "images/works/work18.png",
+    "images/works/work5.png",
+    "images/works/work22.png",
+    "images/works/work21.png",
+    "images/works/work19.png",
+    "images/works/work19.png",
+    "images/works/work17.png",
   ],
 };
 
@@ -50,6 +53,7 @@ const RecentWorks = () => {
     }, 1000);
     // return () => isotope.current.destroy();
   }, []);
+  
   useEffect(() => {
     if (isotope.current) {
       filterKey === "*"
@@ -57,6 +61,7 @@ const RecentWorks = () => {
         : isotope.current.arrange({ filter: `.${filterKey}` });
     }
   }, [filterKey]);
+
   const handleFilterKeyChange = useCallback(
     (key) => () => {
       setFilterKey(key);
@@ -276,6 +281,33 @@ const RecentWorks = () => {
             <div className="box-item f-video">
               <div className="image">
                 <a
+                  href="https://youtu.be/XOiGYGuxTMw?si=RMopEeU1IyRPEx3M"
+                  className="has-popup-video"
+                >
+                  <img src="images/works/work14.png" alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-videocamera" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Video</div>
+                <a
+                  href="https://youtu.be/XOiGYGuxTMw?si=RMopEeU1IyRPEx3M"
+                  className="name has-popup-video"
+                >
+                  UsePopCorn A movie search Application
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item f-video">
+              <div className="image">
+                <a
                   href="https://youtu.be/RJHnlz5wiSU?si=MonGqRSSdTrQR8oq"
                   className="has-popup-video"
                 >
@@ -476,7 +508,7 @@ const RecentWorks = () => {
                     setActiveGallaryImage(2);
                   }}
                 >
-                  <img src="images/works/work5.jpg" alt />
+                  <img src="images/works/work18.png" alt />
                   <span className="info">
                     <span className="centrize full-width">
                       <span className="vertical-center">
@@ -486,10 +518,10 @@ const RecentWorks = () => {
                   </span>
                 </a>
                 <div id="gallery-2" className="mfp-hide">
-                  <a href="images/works/work5.jpg" />
-                  <a href="images/works/work2.jpg" />
-                  <a href="images/works/work3.jpg" />
-                  <a href="images/works/work4.jpg" />
+                  <a href="images/works/work5.png" />
+                  <a href="images/works/work2.png" />
+                  <a href="images/works/work3.png" />
+                  <a href="images/works/work4.png" />
                 </div>
               </div>
               <div className="desc">
