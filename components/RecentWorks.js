@@ -149,6 +149,31 @@ const RecentWorks = () => {
             <div className="box-item f-links">
               <div className="image">
                 <a
+                  href="https://swift-basat.vercel.app/"
+                  className="has-popup-link"
+                  target="_blank"
+                >
+                  <img src="images/works/work12.png" alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-link" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Live Website</div>
+                <a href="https://swift-basat.vercel.app/" className="name has-popup-link">
+                  Swift : South African Ride sharing Platform
+                </a>
+              </div>
+            </div>
+            
+            <div className="box-item f-links">
+              <div className="image">
+                <a
                   href="https://car-rental-basat.vercel.app/"
                   className="has-popup-link"
                   target="_blank"
@@ -217,6 +242,31 @@ const RecentWorks = () => {
                 <div className="category">Live Website</div>
                 <a href="https://tea-station-basat.vercel.app/" className="name has-popup-link">
                   Tea Station 
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item f-links">
+              <div className="image">
+                <a
+                  href="https://qrcode-basat.vercel.app/"
+                  className="has-popup-link"
+                  target="_blank"
+                >
+                  <img src="images/works/work10.png" alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-link" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Live Website</div>
+                <a href="https://qrcode-basat.vercel.app/" className="name has-popup-link">
+                  QR Code Generator
                 </a>
               </div>
             </div>
