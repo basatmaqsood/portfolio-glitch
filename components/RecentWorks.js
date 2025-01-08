@@ -2,6 +2,8 @@
 import { context } from "@/context/context";
 import FsLightbox from "fslightbox-react";
 import Isotope from "isotope-layout";
+import imagesLoaded from 'imagesloaded';
+
 import {
   Fragment,
   useCallback,
@@ -36,23 +38,31 @@ const RecentWorks = () => {
   const isotope = useRef();
   const [filterKey, setFilterKey] = useState("*");
   useEffect(() => {
-    setTimeout(() => {
-      isotope.current = new Isotope(".portfolio-items", {
-        itemSelector: ".box-item",
-        // layoutMode: "fitRows",
+    const grid = document.querySelector('.portfolio-items');
+
+    // Ensure images are fully loaded before initializing Isotope
+    imagesLoaded(grid, () => {
+      isotope.current = new Isotope(grid, {
+        itemSelector: '.box-item',
         percentPosition: true,
         masonry: {
-          columnWidth: ".box-item",
+          columnWidth: '.box-item',
         },
         animationOptions: {
           duration: 750,
-          easing: "linear",
+          easing: 'linear',
           queue: false,
         },
       });
-    }, 1000);
-    // return () => isotope.current.destroy();
+    });
+
+    return () => {
+      if (isotope.current) {
+        isotope.current.destroy();
+      }
+    };
   }, []);
+
   
   useEffect(() => {
     if (isotope.current) {
