@@ -21,13 +21,13 @@ const Header = ({ dark }) => {
           <span />
         </a>
         <div className="logo">
-          <Link href={`/`} className={`lnk`} style={{fontWeight:"bold", fontSize:'32px'}}>
+          <Link href={`/`} className={`lnk`} style={{ fontWeight: "bold", fontSize: '32px' }}>
             BM.
           </Link>
         </div>
         <div className="top-menu">
           <ul>
-            <li className={pathname.includes("home")}>
+            <li className={pathname.includes("home") ? "active" : ""}>
               <Link href={`/`} className={`lnk`}>
                 Home
               </Link>
@@ -58,4 +58,5 @@ const Header = ({ dark }) => {
     </header>
   );
 };
+
 export default Header;
