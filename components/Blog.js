@@ -35,58 +35,25 @@ const Blog = ({ dark }) => {
   const blogs = [
     {
       id: 1,
-      title: "Designing the perfect notification UX",
-      img: "images/works/work1.jpg",
+      title: "Common Pitfalls in JAVASCRIPT",
+      img: "images/blog/blog-1.webp",
+      link:'https://basatmaqsood.medium.com/navigating-common-javascript-pitfalls-a-developers-guide-3aa669329305',
       date: "14 June 2016",
     },
     {
       id: 2,
-      title: "Designing the perfect notification UX",
-      img: "images/works/work2.jpg",
+      title: "10 Mind-Blowing Javascript One-Liners",
+      img: "images/blog/blog-2.webp",
+      link:'https://basatmaqsood.medium.com/mastering-javascript-with-10-mind-blowing-one-liners-a0fc7d84daa0', 
       date: "14 June 2016",
-    },
+    },  
     {
       id: 3,
-      title: "Designing the perfect notification UX",
-      img: "images/works/work3.jpg",
+      title: "Mastering Modern Javascript",
+      img: "images/blog/blog-3.png",
+      link:'https://basatmaqsood.medium.com/mastering-modern-javascript-tips-and-tricks-for-efficient-development-2a77ead8b99c',
       date: "14 June 2016",
-    },
-    {
-      id: 4,
-      title: "Designing the perfect notification UX",
-      img: "images/works/work4.jpg",
-      date: "14 June 2016",
-    },
-    {
-      id: 5,
-      title: "Designing the perfect notification UX",
-      img: "images/works/work5.jpg",
-      date: "14 June 2016",
-    },
-    {
-      id: 6,
-      title: "Designing the perfect notification UX",
-      img: "images/works/work6.jpg",
-      date: "14 June 2016",
-    },
-    {
-      id: 7,
-      title: "Designing the perfect notification UX",
-      img: "images/works/work7.jpg",
-      date: "14 June 2016",
-    },
-    {
-      id: 8,
-      title: "Designing the perfect notification UX",
-      img: "images/works/work8.jpg",
-      date: "14 June 2016",
-    },
-    {
-      id: 9,
-      title: "Designing the perfect notification UX",
-      img: "images/works/work9.jpg",
-      date: "14 June 2016",
-    },
+    }
   ];
 
   return (
@@ -99,7 +66,7 @@ const Blog = ({ dark }) => {
           {blogs.map((blog) => (
             <div className="box-item" key={blog.id}>
               <div className="image">
-                <Link href={`blog_inner${dark ? "-dark" : ""}`}>
+                <Link href={blog.link}>
                   <img src={blog.img} alt />
                   <span className="info">
                     <span className="centrize full-width">
@@ -111,9 +78,8 @@ const Blog = ({ dark }) => {
                 </Link>
               </div>
               <div className="desc">
-                <div className="date">{blog.date}</div>
                 <Link
-                  href={`blog_inner${dark ? "-dark" : ""}`}
+                  href={blog.link}
                   className="name"
                 >
                   {blog.title}

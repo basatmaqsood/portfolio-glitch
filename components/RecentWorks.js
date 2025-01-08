@@ -123,16 +123,7 @@ const RecentWorks = () => {
                   Video
                 </label>
               </div>
-              <div className="btn-group">
-                <label
-                  data-text="Image"
-                  className={`c-pointer ${activeBtn("f-image")}`}
-                  onClick={handleFilterKeyChange("f-image")}
-                >
-                  <input type="radio" name="fl_radio" defaultValue=".f-image" />
-                  Image
-                </label>
-              </div>
+              
               <div className="btn-group">
                 <label
                   data-text="Gallery"
@@ -156,7 +147,7 @@ const RecentWorks = () => {
             <div className="box-item f-links">
               <div className="image">
                 <a
-                  href="https://swift-basat.vercel.app/"
+                  href="https://swiift-basat.vercel.app/"
                   className="has-popup-link"
                   target="_blank"
                 >
@@ -172,9 +163,34 @@ const RecentWorks = () => {
               </div>
               <div className="desc">
                 <div className="category">Live Website</div>
-                <a href="https://swift-basat.vercel.app/" className="name has-popup-link">
+                <a target="_blank" href="https://swiift-basat.vercel.app/" className="name has-popup-link">
                   Swift : South African Ride sharing Platform
                 </a>
+              </div>
+            </div>
+
+
+            <div className="box-item f-links">
+              <div className="image">
+                <a
+                  href="https://lang-bridge-basat.vercel.app/"
+                  className="has-popup-link"
+                  target="_blank"
+                >
+                  <img src="images/works/work31.png" alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-link" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Live Website</div>
+                <a target="_blank" href="https://lang-bridge-basat.vercel.app/" className="name has-popup-link">
+                Lang-Bridge: AI Powered Translator </a>
               </div>
             </div>
 
@@ -474,30 +490,6 @@ const RecentWorks = () => {
               </div>
             </div>
 
-            <div className="box-item f-image">
-              <div className="image">
-                <a href="images/works/work4.jpg" className="has-popup-image">
-                  <img src="images/works/work4.jpg" alt />
-                  <span className="info">
-                    <span className="centrize full-width">
-                      <span className="vertical-center">
-                        <span className="ion ion-image" />
-                      </span>
-                    </span>
-                  </span>
-                </a>
-              </div>
-              <div className="desc">
-                <div className="category">Image</div>
-                <a
-                  href="images/works/work4.jpg"
-                  className="name has-popup-image"
-                >
-                  Shopping gift bag
-                </a>
-              </div>
-            </div>
-
             <div className="box-item f-gallery">
               <div className="image">
                 <a
@@ -527,12 +519,25 @@ const RecentWorks = () => {
               <div className="desc">
                 <div className="category">Gallery</div>
                 <a href="#gallery-2" className="name has-popup-gallery">
-                  Amore Mio Three Cups
+                  Other Projects
                 </a>
               </div>
             </div>
 
-            <div className="box-item f-image">
+
+          </div>
+          <div className="clear" />
+        </div>
+      </div>
+    </Fragment>
+  );
+};
+export default RecentWorks;
+
+
+// Image work box
+
+            {/* <div className="box-item f-image">
               <div className="image">
                 <a href="images/works/work9.png" className="has-popup-image">
                   <img src="images/works/work9.png" alt />
@@ -554,12 +559,4 @@ const RecentWorks = () => {
                   Minimal Poster Frame
                 </a>
               </div>
-            </div>
-          </div>
-          <div className="clear" />
-        </div>
-      </div>
-    </Fragment>
-  );
-};
-export default RecentWorks;
+            </div> */}
