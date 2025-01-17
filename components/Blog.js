@@ -66,7 +66,7 @@ const Blog = ({ dark }) => {
           {blogs.map((blog) => (
             <div className="box-item" key={blog.id}>
               <div className="image">
-                <Link href={blog.link}>
+                <Link target="_blank" href={blog.link}>
                   <img src={blog.img} alt />
                   <span className="info">
                     <span className="centrize full-width">
@@ -81,6 +81,7 @@ const Blog = ({ dark }) => {
                 <Link
                   href={blog.link}
                   className="name"
+                  target="_blank"
                 >
                   {blog.title}
                 </Link>
