@@ -26,7 +26,7 @@ const About = () => {
                 <strong>Age:</strong> 20 Years
               </li>
               <li>
-                <strong>Job:</strong> Web Developer
+                <strong>Job:</strong> Full Stack Developer
               </li>
               <li>
                 <strong>Citizenship:</strong> Pakistan
