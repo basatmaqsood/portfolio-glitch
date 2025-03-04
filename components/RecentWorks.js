@@ -153,6 +153,55 @@ const RecentWorks = () => {
 
           <div className="box-items portfolio-items">
 
+          <div className="box-item f-links">
+              <div className="image">
+                <a
+                  href="https://nextrivals-basat.vercel.app/"
+                  className="has-popup-link"
+                  target="_blank"
+                >
+                  <img src="images/works/work-34.png" alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-link" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Live Website</div>
+                <a href="https://nextrivals-basat.vercel.app/" className="name has-popup-link">
+                  Next Rivals : Retro Gaming Platform
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item f-links">
+              <div className="image">
+                <a
+                  href="https://gogator-basat.vercel.app/"
+                  className="has-popup-link"
+                  target="_blank"
+                >
+                  <img src="images/works/work-33.png" alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-link" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Live Website</div>
+                <a href="https://gogator-basat.vercel.app/" className="name has-popup-link">
+                GoGator : The Future of Smart Learning
+                </a>
+              </div>
+            </div>
 
             <div className="box-item f-links">
               <div className="image">
@@ -203,28 +252,60 @@ const RecentWorks = () => {
                 Lang-Bridge: AI Powered Translator </a>
               </div>
             </div>
+            
 
-            <div className="box-item f-links">
+
+            <div className="box-item f-video">
               <div className="image">
                 <a
-                  href="https://car-rental-basat.vercel.app/"
-                  className="has-popup-link"
-                  target="_blank"
+                  href="https://youtu.be/XOiGYGuxTMw?si=RMopEeU1IyRPEx3M"
+                  className="has-popup-video"
                 >
-                  <img src="images/works/work1.png" alt />
+                  <img src="images/works/work14.png" alt />
                   <span className="info">
                     <span className="centrize full-width">
                       <span className="vertical-center">
-                        <span className="ion ion-link" />
+                        <span className="ion ion-videocamera" />
                       </span>
                     </span>
                   </span>
                 </a>
               </div>
               <div className="desc">
-                <div className="category">Live Website</div>
-                <a href="https://car-rental-basat.vercel.app/" className="name has-popup-link">
-                  Car Rental Website
+                <div className="category">Video</div>
+                <a
+                  href="https://youtu.be/XOiGYGuxTMw?si=RMopEeU1IyRPEx3M"
+                  className="name has-popup-video"
+                >
+                  UsePopCorn A movie search Application
+                </a>
+              </div>
+            </div>
+
+
+            <div className="box-item f-video">
+              <div className="image">
+                <a
+                  href="https://youtu.be/RJHnlz5wiSU?si=MonGqRSSdTrQR8oq"
+                  className="has-popup-video"
+                >
+                  <img src="images/works/work24.png" alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-videocamera" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Video</div>
+                <a
+                  href="https://youtu.be/RJHnlz5wiSU?si=MonGqRSSdTrQR8oq"
+                  className="name has-popup-video"
+                >
+                  Full Stack AirBnB Clone
                 </a>
               </div>
             </div>
@@ -254,31 +335,34 @@ const RecentWorks = () => {
               </div>
             </div>
 
-            <div className="box-item f-links">
+
+
+            <div className="box-item f-video">
               <div className="image">
                 <a
-                  href="https://tea-station-basat.vercel.app/"
-                  className="has-popup-link"
-                  target="_blank"
+                  href="https://youtu.be/bw7p_OMSzlY?si=DlcyKZFlyyO8jjpZ"
+                  className="has-popup-video"
                 >
-                  <img src="images/works/work3.png" alt />
+                  <img src="images/works/work25.png" alt />
                   <span className="info">
                     <span className="centrize full-width">
                       <span className="vertical-center">
-                        <span className="ion ion-link" />
+                        <span className="ion ion-videocamera" />
                       </span>
                     </span>
                   </span>
                 </a>
               </div>
               <div className="desc">
-                <div className="category">Live Website</div>
-                <a href="https://tea-station-basat.vercel.app/" className="name has-popup-link">
-                  Tea Station 
+                <div className="category">Video</div>
+                <a
+                  href="https://youtu.be/bw7p_OMSzlY?si=DlcyKZFlyyO8jjpZ"
+                  className="name has-popup-video"
+                >
+                  ChatGPT Clone 
                 </a>
               </div>
             </div>
-
             <div className="box-item f-links">
               <div className="image">
                 <a
@@ -307,10 +391,10 @@ const RecentWorks = () => {
             <div className="box-item f-video">
               <div className="image">
                 <a
-                  href="https://youtu.be/XOiGYGuxTMw?si=RMopEeU1IyRPEx3M"
+                  href="https://youtu.be/116Yx1SzKx0?si=TOuToc-VP7jUEQtD"
                   className="has-popup-video"
                 >
-                  <img src="images/works/work14.png" alt />
+                  <img src="images/works/work28.png" alt />
                   <span className="info">
                     <span className="centrize full-width">
                       <span className="vertical-center">
@@ -323,91 +407,10 @@ const RecentWorks = () => {
               <div className="desc">
                 <div className="category">Video</div>
                 <a
-                  href="https://youtu.be/XOiGYGuxTMw?si=RMopEeU1IyRPEx3M"
+                  href="https://youtu.be/116Yx1SzKx0?si=TOuToc-VP7jUEQtD"
                   className="name has-popup-video"
                 >
-                  UsePopCorn A movie search Application
-                </a>
-              </div>
-            </div>
-
-            <div className="box-item f-video">
-              <div className="image">
-                <a
-                  href="https://youtu.be/RJHnlz5wiSU?si=MonGqRSSdTrQR8oq"
-                  className="has-popup-video"
-                >
-                  <img src="images/works/work24.png" alt />
-                  <span className="info">
-                    <span className="centrize full-width">
-                      <span className="vertical-center">
-                        <span className="ion ion-videocamera" />
-                      </span>
-                    </span>
-                  </span>
-                </a>
-              </div>
-              <div className="desc">
-                <div className="category">Video</div>
-                <a
-                  href="https://youtu.be/RJHnlz5wiSU?si=MonGqRSSdTrQR8oq"
-                  className="name has-popup-video"
-                >
-                  Full Stack AirBnB Clone
-                </a>
-              </div>
-            </div>
-
-            <div className="box-item f-video">
-              <div className="image">
-                <a
-                  href="https://youtu.be/bw7p_OMSzlY?si=DlcyKZFlyyO8jjpZ"
-                  className="has-popup-video"
-                >
-                  <img src="images/works/work25.png" alt />
-                  <span className="info">
-                    <span className="centrize full-width">
-                      <span className="vertical-center">
-                        <span className="ion ion-videocamera" />
-                      </span>
-                    </span>
-                  </span>
-                </a>
-              </div>
-              <div className="desc">
-                <div className="category">Video</div>
-                <a
-                  href="https://youtu.be/bw7p_OMSzlY?si=DlcyKZFlyyO8jjpZ"
-                  className="name has-popup-video"
-                >
-                  ChatGPT Clone 
-                </a>
-              </div>
-            </div>
-
-            <div className="box-item f-video">
-              <div className="image">
-                <a
-                  href="https://youtu.be/U2A01Aj37t8?si=4k1oHcsORdFm7Azh"
-                  className="has-popup-video"
-                >
-                  <img src="images/works/work26.png" alt />
-                  <span className="info">
-                    <span className="centrize full-width">
-                      <span className="vertical-center">
-                        <span className="ion ion-videocamera" />
-                      </span>
-                    </span>
-                  </span>
-                </a>
-              </div>
-              <div className="desc">
-                <div className="category">Video</div>
-                <a
-                  href="https://youtu.be/U2A01Aj37t8?si=4k1oHcsORdFm7Azh"
-                  className="name has-popup-video"
-                >
-                  Quiz Application
+                  Chat App using React and Firebase
                 </a>
               </div>
             </div>
@@ -442,10 +445,10 @@ const RecentWorks = () => {
             <div className="box-item f-video">
               <div className="image">
                 <a
-                  href="https://youtu.be/116Yx1SzKx0?si=TOuToc-VP7jUEQtD"
+                  href="https://youtu.be/U2A01Aj37t8?si=4k1oHcsORdFm7Azh"
                   className="has-popup-video"
                 >
-                  <img src="images/works/work28.png" alt />
+                  <img src="images/works/work26.png" alt />
                   <span className="info">
                     <span className="centrize full-width">
                       <span className="vertical-center">
@@ -458,10 +461,62 @@ const RecentWorks = () => {
               <div className="desc">
                 <div className="category">Video</div>
                 <a
-                  href="https://youtu.be/116Yx1SzKx0?si=TOuToc-VP7jUEQtD"
+                  href="https://youtu.be/U2A01Aj37t8?si=4k1oHcsORdFm7Azh"
                   className="name has-popup-video"
                 >
-                  Chat App using React and Firebase
+                  Quiz Application
+                </a>
+              </div>
+            </div>
+
+
+
+            <div className="box-item f-links">
+              <div className="image">
+                <a
+                  href="https://car-rental-basat.vercel.app/"
+                  className="has-popup-link"
+                  target="_blank"
+                >
+                  <img src="images/works/work1.png" alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-link" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Live Website</div>
+                <a href="https://car-rental-basat.vercel.app/" className="name has-popup-link">
+                  Car Rental Website
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item f-links">
+              <div className="image">
+                <a
+                  href="https://tea-station-basat.vercel.app/"
+                  className="has-popup-link"
+                  target="_blank"
+                >
+                  <img src="images/works/work3.png" alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-link" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Live Website</div>
+                <a href="https://tea-station-basat.vercel.app/" className="name has-popup-link">
+                  Tea Station 
                 </a>
               </div>
             </div>
@@ -533,7 +588,6 @@ const RecentWorks = () => {
                 </a>
               </div>
             </div>
-
 
           </div>
           <div className="clear" />
