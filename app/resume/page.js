@@ -5,8 +5,11 @@ import Services from "@/components/Services";
 import Skills from "@/components/Skills";
 import GlitcheLayout from "@/layouts/GlitcheLayout";
 
-import dynamic from "next/dynamic";
-
+export const metadata = {
+  title: "Basat Maqsood | Software Engineer | Full Stack Web Developer",
+  description:
+    "Software Engineer | Full Stack Web Developer | Expertise in MERN Stack. Passionate about building Responsive Web applications and solving complex business problems",
+};
 
 const Resume = () => {
   return (
