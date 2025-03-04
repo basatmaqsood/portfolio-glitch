@@ -1,4 +1,3 @@
-import { getServerSideSitemap } from "next-sitemap";
 
 export async function GET() {
   const siteUrl = "https://basatmaqsood.live"; // Replace with your actual domain
@@ -15,7 +14,7 @@ export async function GET() {
       changefreq: "weekly",
     }))
   ];
-  console.log(urls);
+  
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     ${urls
